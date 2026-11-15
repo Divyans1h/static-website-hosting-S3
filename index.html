@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben 10 - Alien Universe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">BEN <span>10</span></h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aliens">Aliens</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>THE ALIEN <span>UNIVERSE</span></h1>
+        <p>
+            One watch. Ten incredible aliens.
+            Unlimited possibilities!
+        </p>
+        <button onclick="transformAlien()">
+            ACTIVATE OMNITRIX
+        </button>
+        <h2 id="transformation">Ready for transformation?</h2>
+    </div>
+
+    <div class="watch">
+        <div class="watch-circle">
+            <div class="watch-symbol">✦</div>
+        </div>
+    </div>
+</section>
+
+<section class="aliens" id="aliens">
+    <h2>MEET THE ALIENS</h2>
+
+    <div class="alien-container">
+
+        <div class="alien-card">
+            <div class="alien-image heatblast">🔥</div>
+            <h3>Heatblast</h3>
+            <p>Master of fire and flames.</p>
+            <button onclick="showAlien('Heatblast')">
+                Explore
+            </button>
+        </div>
+
+        <div class="alien-card">
+            <div class="alien-image fourarms">💪</div>
+            <h3>Four Arms</h3>
+            <p>Super strength and power.</p>
+            <button onclick="showAlien('Four Arms')">
+                Explore
+            </button>
+        </div>
+
+        <div class="alien-card">
+            <div class="alien-image xlr8">⚡</div>
+            <h3>XLR8</h3>
+            <p>Incredible super speed.</p>
+            <button onclick="showAlien('XLR8')">
+                Explore
+            </button>
+        </div>
+
+        <div class="alien-card">
+            <div class="alien-image diamondhead">💎</div>
+            <h3>Diamondhead</h3>
+            <p>Crystal armor and sharp crystals.</p>
+            <button onclick="showAlien('Diamondhead')">
+                Explore
+            </button>
+        </div>
+
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2>ABOUT BEN 10</h2>
+    <p>
+        Ben Tennyson discovers a mysterious alien watch
+        called the Omnitrix. It gives him the ability
+        to transform into different alien heroes.
+    </p>
+</section>
+
+<footer>
+    <p>Fan-made Ben 10 inspired website | HTML CSS JavaScript</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
